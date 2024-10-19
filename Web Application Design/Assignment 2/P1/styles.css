@@ -1,0 +1,212 @@
+@import url(https://db.onlinewebfonts.com/c/917a69d24b88e2d4d2ca803c0605bd59?family=Cera+PRO+Regular); 
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+body, html{
+    height: 100%;
+    background: linear-gradient(to right, #fffbf2 0%, #edfafe 100%);
+    content:"width=device-width, initial-scale=1.0"
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin-top: 2%;
+    height: 3%;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    margin: 0px 2% 0px 2%;
+    float: left;
+    font-size: 22px;
+}
+#company{
+    font-size: 42px;
+    font-weight: bold; 
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 45%;
+}
+.left-nav li{
+    float: left;
+    
+}
+.right-nav li{
+    float: right;
+}
+li a{
+    text-decoration: none;
+    color: #686C75;
+    font-family: "Cera PRO Regular";
+    font-weight: 500;
+}
+header{
+    display: block;
+}
+.main-box{
+    display: grid;
+    grid-template-columns: 0.05fr 1fr 0.01fr;
+}
+.left{
+    background-color: #ffdb80;
+    height: 470px;
+}
+.yellow-bar{
+    height: 500px;
+    background-color: #ffdb80;
+    clip-path: polygon(0% 94%, 100% 0%, 100% 100%);
+}
+.main{
+    margin: 5% 50px 0% 50px;
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    column-gap: 20px;
+}
+.main-left{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.main-right div{
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.main-right div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    width: 90%;
+    margin-top: 17%;
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'gilroy-bold';
+}
+#line{
+    position: absolute;
+    top: 110px;
+    right: 390px;
+    width: 600px;
+    height: 817px;
+}
+#img1{
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    border-radius: 360px 360px 0 0;
+}
+.circle1 {
+    top: 100px;
+    right: 221px;
+    width: 300px;
+    height: 300px;
+}
+.circle2 {
+    top: 500px;
+    right: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.circle3 {
+    top: 370px;
+    right: 76px;
+    width: 100px;
+    height: 100px;
+}
+h2{
+    position: absolute;
+    font-size: 42px;
+    color: lightgray;
+    width: 100px;
+    right: 270px;
+    top: 850px;
+    transform: rotate(270deg);
+    font-family: "Cera PRO Regular";
+}
+span{
+    visibility: hidden;
+}
+.search-bar{
+    background-color: transparent;
+    height: 130px;
+    backdrop-filter: blur(10px);
+    border-radius: 11px;
+    border: 1px rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 55%;
+    position:absolute;
+    top: 650px;
+    margin-left: 100px;
+}
+select, input{
+    height: 100px;
+    width: 30%;
+    border: none;
+    background-color: transparent;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+#city{
+    background-image: url('https://www.svgrepo.com/show/103810/map-pin.svg');
+    background-size: 25px 25px;
+    background-position: 41% center;
+    background-repeat: no-repeat;
+}
+::placeholder{
+    text-align: center;
+}
+button{
+    margin-top: 25px;
+    float: right;
+    padding: 25px 45px 25px 45px;
+    background-color: #fd5b2f;
+    border-radius: 7px;
+    margin-right: 50px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.visit{
+    margin-top: 35%;
+    overflow: hidden;
+    position: relative;
+}
+.visit img{
+    width:  70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-left: -30px;
+}
+#first-pic{
+    margin: 0;
+}
+.ten{
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fd5b2f;
+}
+p{
+    position: absolute;
+    top: 31px;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer{
+    margin-top: 4%;
+}
+footer img{
+    position: absolute;
+    left: 33%;
+    padding-bottom: 1%;
+}

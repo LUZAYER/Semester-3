@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+.main-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 150px 200px;
+    margin-bottom: 0;
+    column-gap: 50px;
+}
+h3{
+    font-family: 'avenir';
+    font-weight: 400;
+    color: #FD5B2F;
+    font-size: 32px;
+}
+h2{
+    font-family: 'gilroy-medium';
+    font-size: 42px;
+}
+h4{
+    font-family: 'avenir';
+    font-weight: 100;
+    font-size: 22px;
+}
+h5{
+    font-family: 'gilroy-regular';
+    vertical-align: top;
+    display: inline;
+    font-size: 27px;
+    margin: 0;
+}
+img{
+    margin-top: 6px;
+}
+h6{
+    font-family: 'avenir';
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.box{
+    background-color: #FFF3C8;
+    height: 355px;
+    width: 450px;
+    position: absolute;
+    top: 220px;
+    right: 370px;
+    border-radius: 50% 0 0 0;
+}
+.pics img{
+    position: absolute;
+    object-fit: cover;
+}
+.pic1{
+    height: 250px;
+    width: 250px;
+    top: 150px;
+    right: 470px;
+}
+.pic2{
+    height: 100px;
+    width: 100px;
+    top: 115px;
+    right: 370px;
+}
+.pic3{
+    height: 200px;
+    width: 200px;
+    top: 400px;
+    right: 270px;
+}
+.pic4{
+    height: 320px;
+    width: 320px;
+    top: 510px;
+    right: 470px;
+}
+button{
+    padding: 20px 56px;
+    background-color: #FD5B2F;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 7px;
+}
+#back{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
