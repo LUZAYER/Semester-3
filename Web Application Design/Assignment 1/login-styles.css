@@ -1,0 +1,91 @@
+html{
+    font-size: 21px;
+}
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+form{
+    height: 550px;
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px 50px;
+    vertical-align: top;
+}
+form{
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+h1, h1 a{
+    color: rgb(1, 5, 9);
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+}
+h1 a{
+    color: lightslategray;
+    font-size: 17px;
+}
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+label:hover{
+    cursor: pointer;
+}
+input, button{
+    height: 32px;
+    width: 100%;
+    border: none;
+    backdrop-filter: blur(50px);
+    background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 4px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+input:hover, input:active{
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+}
+#terms{
+    height: auto;
+    width: auto;
+    vertical-align: top;
+}
+button{
+    height: auto;
+    width: auto;
+    padding: 13px 17px;
+    float: right;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: rgb(41, 41, 156);
+}
+a{
+    color: black;
+}
+img{
+    width: 32px;
+    padding-left: 27px;
+}
+#forget{
+    float: left;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+hr{
+    color: aqua;
+}
+span{
+    color: cyan;
+}
+hr, h2{
+    vertical-align: bottom;
+}

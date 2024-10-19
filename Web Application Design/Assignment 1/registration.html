@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="reg-styles.css">
+</head>
+<body>
+  <div class="main-box">
+  <form action="none.php" method="post">
+    <h1> <img src="registration.png">Register <a href="login.html">/ LogIn</a></h1>
+    <br><br>
+    <label for="user">Username</label>
+    <br>
+    <input type="text" id="user" required>
+    <br><br>
+    <label for="pass">Password</label>
+    <br>
+    <input type="password" id="pass" required>
+    <br><br>
+    <label for="mail">Email</label>
+    <br>
+    <input type="email" id="mail">
+    <br><br>
+    <label for="number">Phone Number</label>
+    <br>
+    <input type="tel" id="number" required>
+    <br><br>
+    <label for="birthday">Birthdate</label>
+    <br>
+    <input type="date" id="birthday" required>
+    <br><br>
+    <label for="gender">Gender</label>
+    <br>
+    <select name="gen" id="gender">
+      <option value="gen">Male</option>
+      <option value="gen">Female</option>
+    </select>
+    <br><br>
+    <label for="maritual">Maritual Status</label>
+    <br>
+    <select name="status" id="maritual">
+      <option value="status">Married</option>
+      <option value="status">Unmarried</option>
+    </select>
+    <br><br>
+    <label for="child">Children</label>
+    <input type="number" id="child">
+    <br><br>
+    <label for="cv">CV</label>
+    <label for="cv" id="click">Enter your CV here</label>
+    <br>
+    <input type="file" id="cv" required >
+    <br><br>
+    <input type="checkbox" id="terms" required>
+    <label for="terms">I agree with <a href="#">terms and conditions.</a></label>
+    <br> <br>
+    <textarea id="" rows="4" placeholder="Enter Your Text Here"></textarea>
+    <div class="buttons">
+      <input id="reset" type="reset">
+      <input id="submit" type="submit">
+    </div>
+  </form>
+  </div>
+  <footer></footer>
+    <hr>
+    <h2>Created by <span>LUZAYER</span></h2>
+  </footer>
+</body>
+</html>
