@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+.main-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+#line{
+    position: absolute;
+}
+#main-img{
+    right: 320px;
+    top: 180px;
+    position: absolute;
+    width: 400px;
+    height: 575px;
+    border-radius: 360px 360px 0 0;
+    object-fit: cover;
+}
+h2{
+    font-size: 55px;
+    font-family: 'Gilroy-Medium';
+    margin-top: 5px;
+}
+h3{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: #FD5B2F;
+    font-size: 27px;
+    font-family: 'Gilroy-Regular';
+}
+h5{
+    font-size: 22px;
+    width: 600px;
+    font-family: avenir;
+    margin-bottom: 80px;
+    font-weight: 100;
+}
+button{
+    padding: 20px 46px;
+    color: white;
+    background-color: #FD5B2F;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-right: 50px;
+}
+#visit{
+    background-color: white;
+    color: #FD5B2F;
+    border: 1px solid #FD5B2F;
+}
