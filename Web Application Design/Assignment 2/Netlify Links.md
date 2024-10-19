@@ -15,4 +15,4 @@ Page-7: https://luzayer-assign-p7.netlify.app/
 Page-8: https://luzayer-assign-p8.netlify.app/
 
 NB. As I have used pixel and no flexbox, the elements might fluctuate when window size is changed.
-I have attached files from my Point of view one the folder MY POV.
+I have attached files from my Point of view one the folder My POV.
