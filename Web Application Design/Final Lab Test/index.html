@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>BuyR</h1>
+    </nav>
+
+    <div class="container">
+        <div>
+            <img src="bilmola-defender-toxin-black-red-removebg-preview-removebg-preview.png" alt="">
+            <input type="button" value="Bilmola-Defender-2021-Toxin-Black-Red" id="thing">
+            <label for="">$</label>
+            <input type="button" value="170" id="cost">
+            <section class="buttons">
+                <input type="button" value="-" onclick="
+                    quan.value=parseInt(quan.value)-1;
+                    cost.value=parseInt(cost.value)-170">
+                <input type="button" value="1" id="quan">
+                <input type="button" value="+" onclick="
+                quan.value=parseInt(quan.value)+1;
+                cost.value=parseInt(cost.value)+170">
+            </section>
+            <input type="button" value="Add to Cart"
+            onclick="item.value+='\n'+thing.value;
+            quantity.value+='\n'+quan.value.toString();
+            price.value=parseInt(price.value)+parseInt(cost.value)">
+        </div>
+        <div>
+            <img id="second" src="Bilmola-Defender-2021-Toxin-Silver-Gold-02-removebg-preview.png" alt="">
+            <input type="button" value="Bilmola-Defender-2021-Toxin-Silver-Gold" id="thing1">
+            <label for="">$</label>
+            <input type="button" value="150" id="cost1">
+            <section class="buttons">
+                <input type="button" value="-" onclick="
+                    quan1.value=parseInt(quan1.value)-1;
+                    cost1.value=parseInt(cost1.value)-150">
+                <input type="button" value="1" id="quan1">
+                <input type="button" value="+" onclick="
+                quan1.value=parseInt(quan1.value)+1
+                cost1.value=parseInt(cost1.value)+150">
+            </section>
+            <input type="button" value="Add to Cart"
+            onclick="item.value+='\n'+thing1.value;
+            quantity.value+='\n'+quan1.value.toString();
+            price.value=parseInt(price.value)+parseInt(cost1.value)">
+        </div>
+        <div>
+            <img src="bmw-s1000rr-black-bikes-sports-bikes-white-background-2022-3000x2001-5857.jpg" alt="">
+            <br> <br> <br>
+            <input type="button" value="BMW-S1000RR black-bikes-sports-bike" id="thing3">
+            <label for="">$</label>
+            <input type="button" value="2500" id="cost2">
+            <section class="buttons">
+                <input type="button" value="-" onclick="
+                quan3.value=parseInt(quan3.value)-1;
+                cost2.value=parseInt(cost2.value)+2500">
+                <input type="button" value="1" id="quan3">
+                <input type="button" value="+" onclick="
+                quan3.value=parseInt(quan3.value)+1;
+                cost2.value=parseInt(cost2.value)+2500">
+            </section>
+            <input type="button" value="Add to Cart"
+            onclick="item.value+='\n'+thing3.value;
+            quantity.value+='\n'+quan3.value.toString();
+            price.value=parseInt(price.value)+parseInt(cost2.value)">
+        </div>
+    </div>
+    <div class="price">
+        <div class="top">
+            <input type="button" value="Item">
+            <input type="button" value="Quantity">
+            <input type="button" value="Total Price">
+            <input type="button" value="Final Price">
+        </div>
+        <div class="bottom">
+            <input type="button" value="" id="item">
+            <input type="button" value="" id="quantity">
+            <input type="button" value="0" id="price">
+            <input type="button" value="Click to view Final Price" id="final" onclick="
+        final.value='Total Price: '+price.value
+        +'\nDiscount 25%: -'+(price.value*0.25)
+        +'\nTax 7%: '+(price.value*0.07).toFixed(2)
+        +'\n\n\nFinal Price: $ '+eval((price.value)-(price.value*0.25)+(price.value*0.07));">
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <h5>Created By <a href="">LUZAYER</a></h5>
+    </footer>
+</body>
+</html>
