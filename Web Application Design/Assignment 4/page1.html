@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="hehe.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kino Vaiya</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+    <a href="#check">
+    <input type="button" placeholder="hehe" id="cart" value="0">
+    </a>
+    <div class="boro-box">
+        <div>
+            <img src="/Images/1.jpg" alt="">
+            <form action="">
+                <input type="button" id="details" value="Adults Plain Cotton T-Shirt - 2 Pack">
+                <label for="price">$</label>
+                <input type="button" value="7.99" id="price">
+                <section class="buttons">
+                <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-7.99).toFixed(2)">
+                <input type="button" value="1" id="quantity">
+                <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+7.99).toFixed(2)">
+            </section>
+            <section class="add">
+              <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+                item.value+='\n'+details.value; 
+                unit.value+='\n'+quantity.value; 
+                taka.value+='\n'+price.value; 
+                total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+          </section>
+            </form>
+        </div>
+        <div>
+            <img src="/Images/2.jpg" alt="">
+            <form action="">
+                <input type="button" id="details" value="Waterproof Knit Athletic Sneakers - Gray">
+                <label for="price">$</label>
+                <input type="button" value="33.90" id="price">
+                <section class="buttons">
+                <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-33.90).toFixed(2)">
+                <input type="button" value="1" id="quantity">
+                <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+33.90).toFixed(2)">
+            </section>
+            <section class="add">
+              <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+                item.value+='\n'+details.value; 
+                unit.value+='\n'+quantity.value; 
+                taka.value+='\n'+price.value; 
+                total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+          </section>
+            </form>
+        </div>
+        <div>
+            <img src="/Images/3.jpg" alt="">
+            <form action="">
+                <input type="button" id="details" value="Round Sunglasses">
+                <label for="price">$</label>
+                <input type="button" value="15.60" id="price">
+                <section class="buttons">
+                <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-15.60).toFixed(2)">
+                <input type="button" value="1" id="quantity">
+                <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+15.60).toFixed(2)">
+            </section>
+            <section class="add">
+              <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+                item.value+='\n'+details.value; 
+                unit.value+='\n'+quantity.value; 
+                taka.value+='\n'+price.value; 
+                total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+          </section>
+            </form>
+        </div>
+        <div>
+            <img src="/Images/5.jpg" alt="">
+            <form action="">
+                <input type="button" id="details" value="Women's Two Strap Buckle Sandals - Tan">
+                <label for="price">$</label>
+                <input type="button" value="7.99" id="price">
+                <section class="buttons">
+                <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-7.99).toFixed(2)">
+                <input type="button" value="1" id="quantity">
+                <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+7.99).toFixed(2)">
+            </section>
+            <section class="add">
+              <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+                item.value+='\n'+details.value; 
+                unit.value+='\n'+quantity.value; 
+                taka.value+='\n'+price.value; 
+                total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+          </section>
+            </form>
+        </div>
+        <div>
+          <img src="/Images/1.jpg" alt="">
+          <form action="">
+              <input type="button" id="details" value="Adults Plain Cotton T-Shirt - 2 Pack">
+              <label for="price">$</label>
+              <input type="button" value="7.99" id="price">
+              <section class="buttons">
+              <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-7.99).toFixed(2)">
+              <input type="button" value="1" id="quantity">
+              <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+7.99).toFixed(2)">
+          </section>
+          <section class="add">
+            <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+              item.value+='\n'+details.value; 
+              unit.value+='\n'+quantity.value; 
+              taka.value+='\n'+price.value; 
+              total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+        </section>
+          </form>
+      </div>
+      <div>
+          <img src="/Images/2.jpg" alt="">
+          <form action="">
+              <input type="button" id="details" value="Waterproof Knit Athletic Sneakers - Gray">
+              <label for="price">$</label>
+              <input type="button" value="33.90" id="price">
+              <section class="buttons">
+              <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-33.90).toFixed(2)">
+              <input type="button" value="1" id="quantity">
+              <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+33.90).toFixed(2)">
+          </section>
+          <section class="add">
+            <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+              item.value+='\n'+details.value; 
+              unit.value+='\n'+quantity.value; 
+              taka.value+='\n'+price.value; 
+              total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+        </section>
+          </form>
+      </div>
+      <div>
+          <img src="/Images/3.jpg" alt="">
+          <form action="">
+              <input type="button" id="details" value="Round Sunglasses">
+              <label for="price">$</label>
+              <input type="button" value="15.60" id="price">
+              <section class="buttons">
+              <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-15.60).toFixed(2)">
+              <input type="button" value="1" id="quantity">
+              <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+15.60).toFixed(2)">
+          </section>
+          <section class="add">
+            <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+              item.value+='\n'+details.value; 
+              unit.value+='\n'+quantity.value; 
+              taka.value+='\n'+price.value; 
+              total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+        </section>
+          </form>
+      </div>
+      <div>
+          <img src="/Images/5.jpg" alt="">
+          <form action="">
+              <input type="button" id="details" value="Women's Two Strap Buckle Sandals - Tan">
+              <label for="price">$</label>
+              <input type="button" value="7.99" id="price">
+              <section class="buttons">
+              <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-7.99).toFixed(2)">
+              <input type="button" value="1" id="quantity">
+              <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+7.99).toFixed(2)">
+          </section>
+          <section class="add">
+            <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+              item.value+='\n'+details.value; 
+              unit.value+='\n'+quantity.value; 
+              taka.value+='\n'+price.value; 
+              total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+        </section>
+          </form>
+      </div>
+      <div>
+        <img src="/Images/1.jpg" alt="">
+        <form action="">
+            <input type="button" id="details" value="Adults Plain Cotton T-Shirt - 2 Pack">
+            <label for="price">$</label>
+            <input type="button" value="7.99" id="price">
+            <section class="buttons">
+            <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-7.99).toFixed(2)">
+            <input type="button" value="1" id="quantity">
+            <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+7.99).toFixed(2)">
+        </section>
+        <section class="add">
+          <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+            item.value+='\n'+details.value; 
+            unit.value+='\n'+quantity.value; 
+            taka.value+='\n'+price.value; 
+            total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+      </section>
+        </form>
+    </div>
+    <div>
+        <img src="/Images/2.jpg" alt="">
+        <form action="">
+            <input type="button" id="details" value="Waterproof Knit Athletic Sneakers - Gray">
+            <label for="price">$</label>
+            <input type="button" value="33.90" id="price">
+            <section class="buttons">
+            <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-33.90).toFixed(2)">
+            <input type="button" value="1" id="quantity">
+            <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+33.90).toFixed(2)">
+        </section>
+        <section class="add">
+          <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+            item.value+='\n'+details.value; 
+            unit.value+='\n'+quantity.value; 
+            taka.value+='\n'+price.value; 
+            total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+                cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+      </section>
+        </form>
+    </div>
+    <div>
+        <img src="/Images/3.jpg" alt="">
+        <form action="">
+            <input type="button" id="details" value="Round Sunglasses">
+            <label for="price">$</label>
+            <input type="button" value="15.60" id="price">
+            <section class="buttons">
+            <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-15.60).toFixed(2)">
+            <input type="button" value="1" id="quantity">
+            <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+15.60).toFixed(2)">
+        </section>
+        <section class="add">
+          <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+            item.value+='\n'+details.value; 
+            unit.value+='\n'+quantity.value; 
+            taka.value+='\n'+price.value; 
+            total.value = ((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2);
+            cart.value = (parseInt(cart.value) + parseInt(unit.value)) + ' 🛒'";>
+      </section>
+        </form>
+    </div>
+    <div>
+        <img src="/Images/5.jpg" alt="">
+        <form action="">
+            <input type="button" id="details" value="Women's Two Strap Buckle Sandals - Tan">
+            <label for="price">$</label>
+            <input type="button" value="7.99" id="price">
+            <section class="buttons">
+            <input type="button" min="1" value="-" id="minus" onclick="quantity.value=quantity.value-1; price.value=eval(parseFloat(price.value)-7.99).toFixed(2)">
+            <input type="button" value="1" id="quantity">
+            <input type="button" value="+" onclick="quantity.value=eval(parseInt(quantity.value)+1); price.value=eval(parseFloat(price.value)+7.99).toFixed(2)">
+        </section>
+        <section class="add">
+          <input type="button" value="Add to Cart" id="order" onclick="
+            this.value='✔ Item Added!'; 
+            setTimeout(() => this.value='Add to Cart', 3000);
+            item.value+='\n'+details.value; 
+            unit.value+='\n'+quantity.value; 
+            taka.value+='\n'+price.value; 
+            total.value = (((parseFloat(total.value)) + parseFloat(price.value)).toFixed(2)).toFixed(2);
+            cart.value=(parseInt(cart.value)+parseInt(unit.value))+'🛒'">
+      </section>
+        </form>
+    </div>
+    </div>
+    <div class="check" id="check">
+        <div class="up">
+        <input type="button" value="Item">
+        <input type="button" value="Quantity">
+        <input type="button" value="Price">
+        <input type="button" value="Total Price">
+        <input type="button" value="Final Price" id="last">
+      </div>
+      <div class="bottom">
+        <input id="item" type="button" value="" onclick="test.value=details.value">
+        <input id="unit" type="button" value="" onclick="test.value=details.value">
+        <input id="taka" type="button" value="" onclick="test.value=details.value">
+        <input id="total" type="button" value="0" onclick="">
+        <input type="button" id="final" value="Tap To View" onclick="
+        final.value='Total Price: '+total.value
+        +'\nDiscount 25%: -'+(total.value*0.25).toFixed(2)
+        +'\nTax 7%: '+(total.value*0.07).toFixed(2)
+        +'\n\n\nFinal Price: '+eval((total.value)-(total.value*0.25)+(total.value*0.07)).toFixed(2);
+        ">
+    </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

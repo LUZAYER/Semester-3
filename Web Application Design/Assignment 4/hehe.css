@@ -1,0 +1,105 @@
+.boro-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vh 2vw;
+    row-gap: 2vh;
+    column-gap: 1vw;
+}
+.boro-box div{
+    flex: 1 1 24%;
+    height: 70vh;
+    border: 1px solid lightslategray;
+    text-align: center;
+    border-radius: 1vw;
+}
+img{
+    margin-top: 5vh;
+    height: 35vh;
+    width: 80%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+p{
+    font-size: 1.4vw;
+    margin: 0;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 3vw 3vw 3vw;
+    column-gap: 2vw;
+    justify-content: center;
+}
+.boro-box input{
+    width: 4vw;
+    border: none;
+    margin-top: 2vh;
+    font-size: 1.2vw;
+    text-align: center;
+    cursor: pointer;
+}
+label{
+    width: 1vw;
+    font-size: 1.2vw;
+}
+#price{
+    width: 6vw;
+}
+#details{
+    width: 100%;
+    background-color: white;
+}
+.add input{
+    width: 15vw;
+    border-radius: 2vw;
+    background-color: lightgreen;
+    cursor: pointer !important;
+}
+.up, .bottom{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+.up input, #final{
+    font-weight: bold;
+}
+.bottom{
+    height: max-content;
+}
+.check input{
+    background-color: white;
+    border: none;
+    text-align: start;
+    font-size: 1.2vw;
+    width: 100%;
+}
+.check{
+    border: 2px solid lightcoral;
+    margin: 0vh 2vw;
+    margin-bottom: 10vh;
+    border-radius: 1vw;
+    padding: 0vw 5vw;
+    z-index: 10;
+}
+#total{
+    vertical-align: auto;
+}
+#final, #last{
+    text-align: end;
+}
+#order{
+    transition: border 2s, color 2s, width 2s;
+}
+#order:active{
+    box-shadow: 1px 1px 10px black;
+}
+#cart{
+    width: 5vw;
+    height: 10vh;
+    border: none;
+    border-radius: 50%;
+    font-size: 2vw;
+    background-color: orange;
+    position: fixed;
+    bottom: 3vh;
+    right: 2vw;
+    z-index: 2;
+}
